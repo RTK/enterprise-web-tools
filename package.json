@@ -1,0 +1,43 @@
+{
+    "name": "@rtk/effective-cli",
+    "version": "0.0.1",
+    "description": "",
+    "main": "index.js",
+    "bin": {
+        "node-enterprise-cli": "dist/bin/cli.ts"
+    },
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/RTK/node-effective-cli.git"
+    },
+    "author": {
+        "name": "Rouven T. Kruse",
+        "email": "mail@rouvenkruse.de",
+        "url": "https://rouvenkruse.rocks"
+    },
+    "license": "MIT",
+    "bugs": {
+        "url": "https://github.com/RTK/node-effective-cli/issues"
+    },
+    "homepage": "https://github.com/RTK/node-effective-cli#readme",
+    "dependencies": {
+        "commitizen": "^4.2.4",
+        "husky": "^7.0.4",
+        "jest": "^27.4.7",
+        "lint-staged": "^12.1.7",
+        "prettier": "^2.5.1"
+    },
+    "devDependencies": {
+        "@rtk/prettier-config": "github:rtk/prettier-config",
+        "cz-conventional-changelog": "^3.3.0",
+        "ts-node": "^10.4.0"
+    },
+    "config": {
+        "commitizen": {
+            "path": "./node_modules/cz-conventional-changelog"
+        }
+    }
+}
