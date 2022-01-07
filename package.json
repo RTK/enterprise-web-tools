@@ -1,5 +1,5 @@
 {
-    "name": "@rtk/effective-cli",
+    "name": "effective-cli",
     "version": "0.0.1",
     "description": "",
     "main": "index.js",
