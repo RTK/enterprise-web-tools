@@ -4,7 +4,7 @@
     "description": "",
     "main": "index.js",
     "bin": {
-        "node-enterprise-cli": "dist/bin/cli.ts"
+        "node-enterprise-cli": "bin/cli.ts"
     },
     "scripts": {
         "test": "echo \"Error: no test specified\" && exit 1"
